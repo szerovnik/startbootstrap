@@ -14,8 +14,8 @@
     </head>
 
     <body>
-          <nav class="navbar navbar-default">
-        <div class="container-fluid">
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -30,55 +30,36 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-              <li><a href="#">Link</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
+              <li><a href="#izob">Link</a></li>
+              <li><a href="#osn_pod">Link</a></li>
+              <li><a href="#prog_zna">Link</a></li>
+              <li><a href="#meh_ves">Link</a></li>
+              <li><a href="#pos_dos">Link</a></li>
+              <li><a href="#izku">Link</a></li>
             </ul>
-            <form class="navbar-form navbar-left">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search">
-              </div>
-              <button type="submit" class="btn btn-default">Submit</button>
-            </form>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Link</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
-                </ul>
-              </li>
-            </ul>
+
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
       </nav>
+
       <div class="container">
         <div class="row">
           <div id="slika" class="col-xs-12 col-md-3">
-            Semle pride slika
-          </div>
-          <div id="osn_pod" class="col-xs-12 col-md-offset-1 col-md-8">
-            <div class="row">
-              <div class="col-xs-12">
-                <h1>Osnovni podatki</h1>
-              </div>
+            <div class="panel panel-default">
+            <div class="panel-body">
+              <img src="img/original.jpg" alt="my picture" class="img-rounded" style="height:200px; width: 230px;">
             </div>
-            <div class="row">
+          </div>
+        </div>
+        <div id="osn_pod" class="col-xs-12 col-md-offset-1 col-md-8">
+          <div class="row">
+            <div class="col-xs-12">
+            </div>
+          </div>
+        <div class="row">
+         <div class="panel panel-info">
+            <div class="panel-heading"><h1>Osnovni podatki</h1></div>
+            <div class="panel-body">
               <div class="col-md-6">
                 <ul class="list-group">
                   <li class="list-group-item">Ime: Sanja</li>
@@ -93,39 +74,92 @@
                   <li class="list-group-item">telefon: 041 123 123 </li>
                 </ul>
               </div>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div id="izob" class="col-xs-12">
-            <h1>Izobrazba</h1>
-          </div>
-        </div>
+       </div>
+      </div>
+    </div>
+      <div class="row">
+        <div id="izob" class="col-xs-12 col-md-4">
+          <div class="panel panel-default">
+              <div class="panel-heading"><h1>Izobrazba</h1></div>
+              <div class="panel-body">
+                <div class="well">
+                  <h2>Filozofska fakulteta</h2>
+                  <p>Anglistika</p>
+                </div>
+                <div class="well">
+                  <h2>SVŠGL</h2>
+                  <p>Gimnazija</p>
+                </div>
+              </div>
+           </div>
+         </div>
+       </div>
         <div class="row">
           <div id="prog_zna" class="col-xs-12 col-md-4">
-            <h1>Programerska znanja</h1>
-            <ul>
-              <li><h3>HTML <span class="label label-primary">Solidno</span></h3></li>
-              <li><h3>CSS <span class="label label-success">Srednje</span></h3></li>
-              <li><h3>Bootstrap <span class="label label-info">Srednje</span></h3></li>
-              <li><h3>Git Bash <span class="label label-warning">Osnovno</span></h3></li>
-            </ul>
+            <div class="panel panel-danger">
+              <div class="panel-heading"><h1>Tehnologija</h1></div>
+              <div class="panel-body">
+                <ul>
+                  <li><h3>HTML <span class="label label-primary">Solidno</span></h3></li>
+                  <li><h3>CSS <span class="label label-success">Srednje</span></h3></li>
+                  <li><h3>Bootstrap <span class="label label-info">Srednje</span></h3></li>
+                  <li><h3>Git Bash <span class="label label-warning">Osnovno</span></h3></li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
         <div class="row">
           <div id="meh_ves" class="col-xs-12 col-md-4">
-            <h1>Mehke veščine</h1>
+            <div class="panel panel-succes">
+                <div class="panel-heading"><h1>Mehke veščine</h1></div>
+                <div class="panel-body">
+                  <ul>
+                    <li><h3>HTML <span class="label label-primary">Solidno</span></h3></li>
+                    <li><h3>CSS <span class="label label-success">Srednje</span></h3></li>
+                    <li><h3>Bootstrap <span class="label label-info">Srednje</span></h3></li>
+                    <li><h3>Git Bash <span class="label label-warning">Osnovno</span></h3></li>
+                  </ul>
+                </div>
+            </div>
           </div>
         </div>
         <div class="row">
           <div id="pos_dos" class="col-xs-12 col-md-4">
-            <h1>Posebni dosežki</h1>
+            <div class="panel panel-succes">
+                <div class="panel-heading"><h1>Posebni dosežki</h1></div>
+                <div class="panel-body">
+                  <ul>
+                    <li><h3>HTML <span class="label label-primary">Solidno</span></h3></li>
+                    <li><h3>CSS <span class="label label-success">Srednje</span></h3></li>
+                    <li><h3>Bootstrap <span class="label label-info">Srednje</span></h3></li>
+                    <li><h3>Git Bash <span class="label label-warning">Osnovno</span></h3></li>
+                  </ul>
+                </div>
+            </div>
           </div>
         </div>
         <div class="row">
-          <div id="izku" class="col-xs-12">
-            <h1>Izkušnje</h1>
+          <div id="izku" class="col-xs-12 col-md-4">
+            <div class="panel panel-primary">
+                <div class="panel-heading"><h1>Izkušnje</h1></div>
+                <div class="panel-body">
+                  <div class="well">
+                    <h2>Filozofska fakulteta</h2>
+                    <p>Anglistika</p>
+                  </div>
+                  <div class="well">
+                    <h2>SVŠGL</h2>
+                    <p>Gimnazija</p>
+                  </div>
+                </div>
+            </div>
           </div>
         </div>
-      </div>
-    </body>
+
+    </div>
+  </body>
 </html>
